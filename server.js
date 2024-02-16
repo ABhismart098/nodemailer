@@ -3,6 +3,7 @@ const app = express();
 const port = 5000;
 const Sendmail = require('./controler/sendMAil')
 
+
 app.get('/', async(req, res) =>{
     res.status(200);
     res.send({message: "HEllo welcome to your website"})
